@@ -1,6 +1,11 @@
 #include "functions.h"
 
 int factorial(int n){
+    if(n < 0) {
+        // Make changes in the master branch for merge conflict
+        return -1;
+    }
+        
     if(n!=1){
 	return(n * factorial(n-1));
     }
