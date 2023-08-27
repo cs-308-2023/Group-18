@@ -3,9 +3,9 @@
 using namespace std;
 int main()
 {
-    print_hello();
-    cout << "\nThe factorial of 5 is ";
-    cout << factorial(5) << endl;
+    int x = 56, y = 98;
+    
+    cout << "The GCD of " << x << " and " << y << " is " << gcd(x, y) << ".\n";
 
     return 0;
 }

@@ -1,8 +1,8 @@
 int gcd(int x, int y) {
-    int div = x < y ? x : y;
+    int min = x < y ? x : y;
     
-    while(div--) {
-    	if(x % div == 0 && y % div == 0) return div;
+    while(min--) {
+    	if(x % min == 0 && y % min == 0) return min;
     }
     
     return 1;
